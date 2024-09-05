@@ -3,3 +3,4 @@ function calculateTotal(items) {
 }
 
 module.exports = calculateTotal
+

@@ -3,3 +3,4 @@ function calculateTotalWithTax(value, taxRate) {
 }
 
 module.exports = calculateTotalWithTax
+

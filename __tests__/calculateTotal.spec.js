@@ -1,6 +1,7 @@
-const calculateTotal = require('../utils/calculateTotal')
+const TesteSomaList = require('../utils/calculateTotal')
 
-test('calcula o total de uma lista de valores', () => {
-    const items = [100, 200, 300]
-    expect(calculateTotal(items)).toBe(600)
-})
+test('Somando lista de valores com 100 e 300 e recebendo 400', () => {
+    const list = [ 100,300]
+    expect(TesteSomaList(list)).toBe(400)
+
+});
